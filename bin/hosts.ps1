@@ -48,6 +48,7 @@ IPv4("gist.github.com")
 IPv4("github.global.ssl.fastly.net")
 IPv4("assets-cdn.github.com")
 IPv4("raw.githubusercontent.com",
+    "cloud.githubusercontent.com",
     "camo.githubusercontent.com",
     "avatars0.githubusercontent.com",
     "avatars1.githubusercontent.com",
