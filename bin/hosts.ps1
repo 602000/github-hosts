@@ -33,12 +33,12 @@ function IPv4 ($domain = "github.com") {
         $ret = @()
         $ret += ($domain, $ip -join "    ")
         for ($i = 1; $i -lt $domains.Count; $i++) {
-            $ret += $domains[$i], $ip -join "    "
+            $ret += $ip, $domains[$i] -join "    "
         }
         return $ret
     }
     else {
-        return $domain, $ip -join "    "
+        return $ip, $domain -join "    "
     }
 }
 
