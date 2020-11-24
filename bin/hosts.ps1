@@ -31,7 +31,7 @@ function IPv4 ($domain = "github.com") {
     # 返回结果
     if ($domains.Count -gt 0) {
         $ret = @()
-        $ret += ($domain, $ip -join "    ")
+        $ret += ($ip, $domain -join "    ")
         for ($i = 1; $i -lt $domains.Count; $i++) {
             $ret += $ip, $domains[$i] -join "    "
         }
@@ -48,6 +48,7 @@ IPv4("gist.github.com")
 IPv4("github.global.ssl.fastly.net")
 IPv4("assets-cdn.github.com")
 IPv4("raw.githubusercontent.com",
+    "camo.githubusercontent.com",
     "avatars0.githubusercontent.com",
     "avatars1.githubusercontent.com",
     "avatars2.githubusercontent.com",
