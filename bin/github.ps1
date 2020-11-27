@@ -49,10 +49,12 @@ IPv4("github.global.ssl.fastly.net")
 IPv4("assets-cdn.github.com")
 IPv4("api.github.com")
 IPv4("codeload.github.com")
+IPv4("desktop.githubusercontent.com")
 IPv4("raw.githubusercontent.com",
     "cloud.githubusercontent.com",
     "camo.githubusercontent.com",
     "user-images.githubusercontent.com",
+    "desktop.githubusercontent.com",
     "avatars0.githubusercontent.com",
     "avatars1.githubusercontent.com",
     "avatars2.githubusercontent.com",
