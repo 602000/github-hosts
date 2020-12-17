@@ -50,8 +50,8 @@ IPv4("assets-cdn.github.com")
 IPv4("api.github.com")
 IPv4("codeload.github.com")
 IPv4("desktop.githubusercontent.com")
-IPv4("github.map.fastly.net",
-    "raw.githubusercontent.com",
+IPv4("github.map.fastly.net")
+IPv4("raw.githubusercontent.com",
     "cloud.githubusercontent.com",
     "camo.githubusercontent.com",
     "user-images.githubusercontent.com",
